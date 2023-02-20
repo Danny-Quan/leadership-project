@@ -18,7 +18,7 @@ function Main() {
         <div className="main--image grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-10 mt-10">
             <div>
             <img src="./img/image3.jpg" alt="ceo_Image" />
-            <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p className="mt-3">Boakye Agyemang Joseph, Founder and Chief Executive Officer</p>
             </div>
             <div>
             <img src="./img/image4.jpg" alt="ceo_Image" />
