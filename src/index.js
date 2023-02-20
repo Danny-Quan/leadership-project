@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import ContactPage from './pages/ContactPage';
 import Action from './pages/Action';
 import Error from './pages/Error';
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
