@@ -8,18 +8,18 @@ function About() {
         <div>
           <h2 className="font-bold text-primary text-2xl uppercase mb-5">About</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis blanditiis, fugit fuga expedita unde saepe atque
-            deleniti repellat aut! Maxime.
+          YEC Leadership Talk is a Youth Develpment and Leadership oriented
+              program committed to empowering young people, harnessing and
+              developing young tallents and leadership, ...
           </p>
           <button className="text-primary mt-5"><Link to={'/about'}>Learn more &rarr; </Link></button>
         </div>
         <div>
           <h2 className="font-bold text-primary uppercase text-2xl mb-5">what we do</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-            recusandae alias ipsam neque quos sed exercitationem dolorum
-            voluptatum, ea voluptatibus.
+          We offer a strength-focused approach to coaching, grounded in the
+          Co-Active Coaching Model. All of our coaches are either certified or
+          have extensive experience with their specific area of coaching ...
           </p>
           <button className="text-primary mt-5"><Link to={'/services'}>Learn more &rarr; </Link></button>
         </div>

@@ -7,9 +7,9 @@ function WhatWeDo() {
         <h2 className="text-white xl:text-7xl lg:text-7xl md:text-6xl text-4xl font-bold uppercase">what we do</h2>
       </div>
       <div className="container">
-        <h2 className="font-bold text-xl capitalize mb-5">our services</h2>
+        <h2 className="font-bold text-xl capitalize mb-5 text-primary">our services</h2>
         <p>
-          BAJ leadership Consult provides a variety of human resources and
+          YEC Leadership Talk provides a variety of human resources and
           organization development consulting. Whether you’re a small
           institution, organizations, NGOs etc… and looking for assistance and
           support tor whether you’re a medium-sized company embarking on an
@@ -31,7 +31,7 @@ function WhatWeDo() {
           6. Organizational Development <br />
           <br />
         </p>
-        <h3 className="font-bold text-xl capitalize mb-5">
+        <h3 className="font-bold text-xl capitalize mb-5 text-primary">
           leadership development
         </h3>
         <p>
@@ -48,23 +48,23 @@ function WhatWeDo() {
           <br />
           <br />
         </p>
-        <h3 className="font-bold text-xl capitalize mb-5">workshops</h3>
+        <h3 className="font-bold text-xl capitalize mb-5 text-primary">workshops</h3>
         <p>
           we provide varieties of half day and full day(s) workshops for every
           level of employee development in the workplace. some of our most
           requested workshops include:
           <br />
           <br />
-          BAJ Leadership Camp 3-4 days intensive helping leaders to tap into the
+          YEC Leadership Camp 3-4 days intensive helping leaders to tap into the
           development of EQ in management and leadership. This covers all
           spheres of what we do.
           <br />
-          BAJ Virtual Leadership Training. we provide weekly, monthly and yearly
+          YEC Virtual Leadership Training. we provide weekly, monthly and yearly
           virtual trainings.
           <br />
-          BAJ Women Empowerment Summit called (Women in Focus Summit)
+          YEC Women Empowerment Summit called (Women in Focus Summit)
           <br />
-          At BAJ Leadership Consult, there are No More Boring Meetings, Please!
+          At YEC Leadership Talk, there are No More Boring Meetings, Please!
           <br />
           We Create and Facilitate Dynamic & Effective Meetings.
           <br />
@@ -78,7 +78,7 @@ function WhatWeDo() {
           <br />
           <br />
         </p>
-        <h3 className="font-bold text-xl capitalize mb-5">coaching</h3>
+        <h3 className="font-bold text-xl capitalize mb-5 text-primary">coaching</h3>
         <p>
           We offer a strength-focused approach to coaching, grounded in the
           Co-Active Coaching Model. All of our coaches are either certified or

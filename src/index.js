@@ -11,6 +11,8 @@ import ContactPage from './pages/ContactPage';
 import Action from './pages/Action';
 import Error from './pages/Error';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import EventsPage from './pages/EventsPage';
+import SingleEvent from './pages/SingleEvent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +27,8 @@ root.render(
       <Route path='/services' element={<WhatWeDo/>}/>
       <Route path='/contact' element={<ContactPage/>}/>
       <Route path='/take-action' element={<Action/>}/>
+      <Route path='/events' element={<EventsPage/>}/>
+      <Route path='/single-event/:id/:slug' element={<SingleEvent/>}/>
       <Route path='*' element={<Error/>}/>
     </Routes>
     <Footer/>

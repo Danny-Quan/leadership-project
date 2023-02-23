@@ -4,7 +4,9 @@ function WhoWeAre() {
   return (
     <section className="">
       <div className="section--img">
-        <h2 className="font-bold text-white xl:text-7xl lg:text-7xl md:text-6xl text-4xl uppercase">who we are</h2>
+        <h2 className="font-bold text-white xl:text-7xl lg:text-7xl md:text-6xl text-4xl uppercase">
+          who we are
+        </h2>
       </div>
       <div className="container flex gap-40">
         {/* <div>
@@ -18,11 +20,11 @@ function WhoWeAre() {
         </div> */}
         <div className="">
           <h2 className="text-2xl font-bold text-black capitalize mb-5">
-            boakye agyemang Joseph, founder
+            {/* YEC Leadership Talk */}
           </h2>
-          <img src="./img/image3.jpg" alt="founder" />
+          {/* <img src="./img/CLCD9863.JPG" alt="leadership talk" /> */}
           <div className="text mt-5 mb-10">
-            <p>
+            {/* <p>
               Boakye Agyemang Joseph, BAJ is known for his ability to help in
               team transformation, change and development. His outmost
               facilitation skills, listening skills and carefully selecting
@@ -59,10 +61,20 @@ function WhoWeAre() {
               He became the Bono, Bono East and Ahafo Regional Secretary of
               Youth Empowerment Consortium-YEC and later Appointed as the
               Director of Programs at youth Empowerment Consortium-YEC
+            </p> */}
+                    <h3 className="font-bold text-xl capitalize mb-5 text-primary">
+              About Us
+            </h3>
+            <p>
+              YEC Leadership Talk is a Youth Develpment and Leadership oriented
+              program committed to empowering young people, harnessing and
+              developing young tallents and leadership, mentoring and grooming
+              next generation of Global Leaders with the right mindset for
+              Global impact
             </p>
             <br />
 
-            <h3 className="font-bold text-xl capitalize mb-5">
+            <h3 className="font-bold text-xl capitalize mb-5 text-primary">
               our consultants
             </h3>
             <p>
@@ -74,7 +86,7 @@ function WhoWeAre() {
               client and situation
             </p>
 
-            <h3 className="font-bold text-xl capitalize mb-5">our mission</h3>
+            <h3 className="font-bold text-xl capitalize mb-5 text-primary">our mission</h3>
             <p>
               We believe in hearts and minds working together for IMPACT making
               and DEVELOPMENT. We believe trust, authenticity, giving back, and
@@ -82,7 +94,8 @@ function WhoWeAre() {
               that connection and empowerment are paramount to the development
               of oneself for success. We EMPOWER OURSELVES, EACH OTHER, AND OUR
               CLIENTS by being strong advocates for;
-              <br /><br />
+              <br />
+              <br />
               1.Leadership
               <br />
               2.Youth Development
