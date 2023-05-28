@@ -2,40 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
+.container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /* color: rgb(92, 216, 144) */
   /* background-color: rgb(22, 26, 29); */
 }
 nav .nav--items li {
   padding: 0 0.8rem;
 }
-main .main--image img{
+main .main--image img {
   width: 100%;
   /* height: 300px; */
 }
-.action--section--header{
-  background: linear-gradient(to right, #0000008c,#00000050),url(./../public/img/GRIU5977.JPG);
-  width: 100%;
-  height: 60vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment:fixed ;
-  margin-bottom: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.contact--page--header{
-  background: linear-gradient(to right, #00000063,#00000050),url(./../public/img/CLCD9863.JPG);
+.action--section--header {
+  background: linear-gradient(to right, #0000008c, #00000050),
+    url(./../public/img/GRIU5977.JPG);
   width: 100%;
   height: 60vh;
   background-position: center;
@@ -48,8 +35,9 @@ main .main--image img{
   justify-content: center;
   align-items: center;
 }
-.what-we-do-sec{
-  background: linear-gradient(to right, #00000063,#00000050),url(./../public/img/USPN6943.JPG);
+.contact--page--header {
+  background: linear-gradient(to right, #00000063, #00000050),
+    url(./../public/img/CLCD9863.JPG);
   width: 100%;
   height: 60vh;
   background-position: center;
@@ -62,8 +50,9 @@ main .main--image img{
   justify-content: center;
   align-items: center;
 }
-.section--img{
-  background: linear-gradient(to right, #00000063,#00000050),url(./../public/img/XJUA3072.JPG);
+.what-we-do-sec {
+  background: linear-gradient(to right, #00000063, #00000050),
+    url(./../public/img/USPN6943.JPG);
   width: 100%;
   height: 60vh;
   background-position: center;
@@ -76,28 +65,44 @@ main .main--image img{
   justify-content: center;
   align-items: center;
 }
-header{
-  background: linear-gradient(to right,#00000081,#00000079),url(./../public/img/XJUA3072.JPG);
+.section--img {
+  background: linear-gradient(to right, #00000063, #00000050),
+    url(./../public/img/XJUA3072.JPG);
+  width: 100%;
+  height: 60vh;
+  background-position: center;
   background-size: cover;
-  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background: linear-gradient(to right, #00000081, #00000079),
+    url(./../public/img/XJUA3072.JPG);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
   height: 85vh;
 }
-.header--content h1{
+.header--content h1 {
   letter-spacing: 4px;
 }
-.header--content{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 80vh;
+.header--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
   /* transform: translate(-50%,-50%); */
 }
 input,
-textarea{
+textarea {
   resize: none;
   width: 100%;
   border: 1.6px solid gray;
@@ -107,56 +112,62 @@ textarea{
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.116);
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-nav{
+nav {
   height: 80px;
   transition: all 0.3s ease-in-out;
 }
-.hamburger{
+.hamburger {
   display: none;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width: 767px) {
   /* .nav--items{
     position: relative;
     right: 0;
     align-items: center;
   } */
-  .nav--items{
+  .nav--items {
     flex-direction: column;
     position: absolute;
     left: 2;
-    top:6rem;
+    top: 6rem;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
-  .hamburger{
+  .hamburger {
     display: block;
   }
-  .nav--active{
+  .nav--active {
     height: 65vh;
   }
-  .showNavItems{
+  .showNavItems {
     opacity: 1;
     visibility: visible;
   }
-  .nav--items li{
+  .nav--items li {
     height: 3rem;
   }
-  nav{
+  nav {
     height: 60px;
   }
 }
 
-@media only screen and (max-width:678px){
-
-
-
-  header{
+@media only screen and (max-width: 678px) {
+  header {
     height: 75vh;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .action--section--header,
+  .contact--page--header,
+  .what-we-do-sec,
+  .section--img,
+  header {
+    background-size: auto;
+  }
+}

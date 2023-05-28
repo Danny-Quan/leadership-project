@@ -18,7 +18,7 @@ navItems.classList.toggle('showNavItems')
             YEC Leadership Talk
             </h2>
         </div>
-        <button onClick={toggleNav} className="hamburger text-xl absolute right-5 top-4 px-2">
+        <button onClick={toggleNav} className="hamburger text-xl absolute right-5 top-3 px-2 border-2 border-accent rounded-md">
           &#9776;
         </button>
         <ul className='nav--items flex justify-center xl:items-center lg:items-center md:items-center'>
